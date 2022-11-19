@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+:root {
+    --brand-color-primary-pure: #FE1635;
+    --brand-color-primary-light: #FFB3BD;
+    --brand-color-primary-medium: #7A0111;
+    --brand-color-primary-dark: #290006;
+
+    --neutral-color-low-pure: #000;
+    --neutral-color-low-light: #A19BAB;
+    --neutral-color-low-medium: #645D6F;
+    --neutral-color-low-dark: #28252C;
+
+    --neutral-color-high-pure: #fff;
+    --neutral-color-high-light: #F5F4F6;
+    --neutral-color-high-medium: #E0E0E0;
+    --neutral-color-high-dark: #CBC7D1;
+
+    --font-roboto: font-family: 'Roboto', sans-serif;
+    --font-lora: font-family: 'Lora', serif;
+}

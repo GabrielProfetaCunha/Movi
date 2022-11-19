@@ -1,0 +1,85 @@
+@import url(../css/style.css);
+
+
+footer {
+    background-color: #28252c63;
+    margin: 0 auto;
+    width: 100%;
+}
+
+footer .footer_links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+footer .footer_links .about,
+footer .footer_links .services,
+footer .footer_links .talk,
+footer .footer_links .apps {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer_links .about h2,
+footer .footer_links .services h2,
+footer .footer_links .talk h2,
+footer .footer_links .apps h2 {
+    font-size: 20px;
+    font-family: var(--font-lora);
+    color: var(--neutral-color-low-medium);
+    margin-bottom: 24px;
+}
+
+footer .footer_links .about a,
+footer .footer_links .services a,
+footer .footer_links .apps a {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--neutral-color-high-pure);
+    text-decoration: none;
+    font-family: var(--font-roboto);
+}
+
+footer .footer_links .about a:hover,
+footer .footer_links .services a:hover {
+    color: var(--brand-color-primary-pure);
+}
+
+footer .footer_links .talk p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--neutral-color-low-light);
+}
+
+footer .footer_links .talk span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--neutral-color-high-pure);
+    margin: 16px 0;
+}
+
+footer .footer_socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--neutral-color-low-light);
+    width: 85%;
+}
+
+footer .footer_socials .social a {
+    margin: 12px;
+}
+
+footer .copy p {
+    padding: 24px;
+    color: var(--neutral-color-low-light);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
