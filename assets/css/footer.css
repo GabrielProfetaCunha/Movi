@@ -167,7 +167,8 @@ footer .footer_links-mobile .talk summary {
 }
 
 footer .footer_links-mobile .about .first,
-footer .footer_links-mobile .Services .first {
+footer .footer_links-mobile .Services .first,
+footer .footer_links-mobile .talk .first {
     border-top: 1px solid var(--neutral-color-low-medium);
     width: 100%;
 }
@@ -175,6 +176,10 @@ footer .footer_links-mobile .Services .first {
 footer .footer_links-mobile .talk {
     margin-bottom: 80px;
     border-bottom: 1px solid var(--neutral-color-low-medium);
+}
+
+footer .footer_links-mobile .talk p {
+    padding: 15px;
 }
 
 footer .footer_links-mobile .apps {
