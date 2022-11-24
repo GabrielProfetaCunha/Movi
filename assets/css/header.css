@@ -9,13 +9,22 @@ header nav {
     display: flex;
     justify-content: center;
     height: 120px;
-    align-items: center;
+}
+
+header .header_section div {
+    margin-top: 150px;
 }
 
 header .header_section {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 28%;
+    background-image: url(../images/WineBG.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right 20% bottom 130px;
+    background-size: fit-content;
+    max-width: 1440px;
+
 }
 
 header div h1{
@@ -52,4 +61,106 @@ header div a:hover {
     border: solid 1px #fff;
     color: #fff;
     background-color: var(--brand-color-primary-pure);
+}
+
+
+@media screen and (max-width: 1400px) {
+    header .header_section {
+        background-position: left 0% bottom 130px;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    header {
+        height: 1400px;
+    }
+    
+    header .header_section {
+        justify-content: center;
+        align-items: flex-end ;
+        background-position: right 35% top;
+        height: 85%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    header nav img {
+        margin-top: 30px;
+    }
+
+    header div h1{
+        font-size: 68px;
+        line-height: 80px;
+        margin-bottom: 40px;
+    }
+    
+    header div p {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 80px;
+    }
+    
+    header div a {
+        padding: 32px 88px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 470px){
+
+    header {
+        height: 1100px;
+    }
+
+    header .header_section {
+        background-size: 200%;
+        height: 80%;
+    }
+
+    header div h1{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    
+    header div p {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+    
+    header div a {
+        padding: 16px 32px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    header {
+        height: 900px;
+    }
+
+    header .header_section {
+        background-size: 200%;
+        padding: 0;
+        height: 80%;
+    
+    }
+
+    header div h1{
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 0;
+    }
+    
+    header div p {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    
+    header div a {
+        padding: 16px 32px;
+        font-size: 20px;
+    }
 }
