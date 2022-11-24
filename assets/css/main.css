@@ -161,6 +161,12 @@ main section .main_section-map--mobile img {
   padding: 20px;
 }
 
+
+
+
+
+
+
 @media screen and (max-width: 500px) {
   main section h2 {
     font-size: 1.8rem;
@@ -186,6 +192,16 @@ main section .main_section-map--mobile img {
     margin-top: 80px;
   }
 }
+
+@media screen and (max-width: 338px) {
+  main section .main_section-map--mobile img {
+    width: 90px;
+  }
+}
+
+
+
+
 
 main section .main_section-wine--desc {
   display: flex;
